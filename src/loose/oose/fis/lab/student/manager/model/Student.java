@@ -24,6 +24,9 @@ public class Student {
                 ", meanGrade=" + meanGrade +
                 '}';
     }
+    public String greeting(){
+        return "hello world!";
+    }
 
     @Override
     public boolean equals(Object o) {
